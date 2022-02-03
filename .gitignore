@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# app source, report and test files
+/src/App.*
+/src/reportWebVitals.js
+/src/setupTest.js
+
+# public folder (this is a npm packaged asset project, public not needed)
+/public
