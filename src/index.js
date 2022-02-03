@@ -1,17 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ClearDay from './components/icons/ClearDay';
+import ClearNight from './components/icons/ClearNight';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import Cloudy from './components/icons/Cloudy';
+import Cloudy2 from './components/icons/Cloudy2';
+import CloudyDay from './components/icons/CloudyDay';
+import CloudyDay2 from './components/icons/CloudyDay2';
+import CloudyNight from './components/icons/CloudyNight';
+import CloudyNight2 from './components/icons/CloudyNight2';
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+export {
+  ClearDay, 
+  ClearNight,
+  Cloudy,
+  Cloudy2,
+  CloudyDay, 
+  CloudyDay2,
+  CloudyNight,
+  CloudyNight2
+};
